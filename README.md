@@ -11,9 +11,10 @@ A Patient Management Application has been developed using Django to streamline h
 - [Setup and Installation](#setup-and-installation)
   - [Prerequisites](#prerequisites)
   - [Local Development](#local-development)
-  - [Docker Deployment](#docker-deployment)
+  - [Run on Local Host with Docker](#run-on-local-host-with-docker)
   - [AWS Deployment](#aws-deployment)
 - [Usage](#usage)
+- [Screenshots](#screenshots)
 - [Contributing](#contributing)
 - [License](#license)
 
