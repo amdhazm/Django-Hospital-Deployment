@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Home</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        .center-content {
+            height: 100vh;
+        }
+    </style>
+</head>
+<body>
+    <div class="container d-flex justify-content-center align-items-center center-content">
+        <div>
+            <h1>Welcome to the Hospital System</h1>
+            <p>This is the home page.</p>
+            <a href="{% url 'register_patient' %}" class="btn btn-primary">Register Patient</a>
+            <a href="{% url 'check_registration' %}" class="btn btn-secondary">Check Patient Registration</a>
+        </div>
+    </div>
+</body>
+</html>
+

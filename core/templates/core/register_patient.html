@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Register Patient</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        .center-content {
+            height: 100vh;
+        }
+    </style>
+</head>
+<body>
+    <div class="container d-flex justify-content-center align-items-center center-content">
+        <div>
+            <h1>Register Patient</h1>
+            <form method="post">
+                {% csrf_token %}
+                {{ form.as_p }}
+                <button type="submit" class="btn btn-success">Register</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
+
